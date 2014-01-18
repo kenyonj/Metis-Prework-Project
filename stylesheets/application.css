@@ -1,9 +1,23 @@
 #name {
-  font-family: 'Average', serif;
+  font-family: 'Grand Hotel', serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 8em;
   float: left;
 }
-.pretty {
+p {
+  font-size: 3em;
   font-family: 'Average', serif;
+  clear: left;
 }
+.highlight {
+  background-color: rgba(215, 44, 44, 0.3);
+  background: rgba(215, 44, 44, 0.3);
+  color: white;
+}
+body {
+  background-color:#b0c4de;
+}
+a:link {color:#FFFFFF;text-decoration:none;}
+a:visited {color:#FFFFFF;text-decoration:none;}
+a:hover {color:#b0c4de;text-decoration:none;}
+a:active {color:#000000;text-decoration:none;}
