@@ -1,23 +1,38 @@
 #name {
   font-family: 'Grand Hotel', serif;
-  font-weight: bold;
   font-size: 8em;
+  margin-left:2cm;
   float: left;
+  color: #499ed9;
 }
 p {
+  color: white;
+  font-family: 'Lustria', serif;
   font-size: 3em;
-  font-family: 'Average', serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  margin-left:2cm;
+  margin-top:2cm;
   clear: left;
 }
 .highlight {
-  background-color: rgba(215, 44, 44, 0.3);
-  background: rgba(215, 44, 44, 0.3);
-  color: white;
 }
 body {
-  background-color:#b0c4de;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
 }
-a:link {color:#FFFFFF;text-decoration:none;}
-a:visited {color:#FFFFFF;text-decoration:none;}
-a:hover {color:#b0c4de;text-decoration:none;}
-a:active {color:#000000;text-decoration:none;}
+a {
+  color: white;
+  font-family: 'Grand Hotel', serif;
+  font-size: 2em;
+} 
+a:link {color: #499ed9;text-decoration:none;}
+a:visited {color: #499ed9;text-decoration:none;}
+a:hover {color: #499ed9;text-decoration:none;}
+a:active {color: #499ed9;text-decoration:none;}
+
